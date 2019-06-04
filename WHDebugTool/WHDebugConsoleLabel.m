@@ -42,7 +42,6 @@
 }
 
 - (void)updateLabelWith:(DebugToolLabelType)labelType value:(float)value {
-            NSLog(@"%f",value);
 //case zh = 0
 //case eu = 1
 //case us = 2
@@ -93,7 +92,6 @@
     } else if (value == 5) {
         connect = @"test";
     } else if (value == 6) {
-        NSLog(@"666");
         connect = @"aws";
     }
     return connect;
