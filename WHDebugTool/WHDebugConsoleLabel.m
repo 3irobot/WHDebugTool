@@ -92,7 +92,7 @@
     } else if (value == 5) {
         connect = @"test";
     } else if (value == 6) {
-        connect = @"test";
+        connect = @"aws";
     }
     return connect;
 }
